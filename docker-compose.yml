@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  s3lab:
+    build: .
+    container_name: hacksudo-s3-lab
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=s3
+      - DEBUG=1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - AWS_DEFAULT_REGION=eu-north-1
