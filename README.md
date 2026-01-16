@@ -50,7 +50,7 @@ cd hacksudos3cloud
 ```
 ### Start the Lab
 ```
-docker-compose up -d
+sudo docker compose up -d
 ```
 ### 🧪 Verification
 ```
